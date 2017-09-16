@@ -8,6 +8,7 @@ mongo.connect(url, function(err, db){
                 size: process.argv[2]
             }
         };
+        
    var groupQuery = {
             $group :
             {
